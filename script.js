@@ -3,9 +3,9 @@ var body = document.getElementsByTagName('body')[1];
 
 var counter = 0;
 
-var randomRedBase = Math.floor(Math.random()*50);
-var randomGreenBase = Math.floor(Math.random()*50);
-var randomBlueBase = Math.floor(Math.random()*50);
+var randomRedBase = Math.floor(Math.random() * (45 - 30)) + 30;
+var randomGreenBase = Math.floor(Math.random() * (45 - 30)) + 30;
+var randomBlueBase = Math.floor(Math.random() * (45 - 30)) + 30;
 
 var randomRed = randomRedBase;
 var randomGreen = randomGreenBase;
